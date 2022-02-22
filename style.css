@@ -12,6 +12,11 @@ th {
         content: ' \0024';
         float: left;
         }
+    .price::after {
+        content: ',-';
+        float: right;
+    }
+
 
 p {font-family: Arial, Helvetica, sans-serif;}
 h1 {font-family: Arial, Helvetica, sans-serif;}
