@@ -1,5 +1,5 @@
 <title>Webtech Domino's Werken Bij</title>
-<meta name="description" content="description: Dominos: cheap and delicious pizzas. Eat at our restaurant or order a fast pizza delivery!" />
+
 <head>
     <link rel="stylesheet" href="style.css">
     <style>
@@ -14,10 +14,108 @@
         <li><a href=over.html>Over</a></li>
         <li><a href=werkenbij.html>Werken bij Domino's</a></li>
     </ul>
-
-    <h1>Werken bij Domino's</h1>
+    <div class="center">
+      <img src="banner.png" alt="banner" width="100%">
+      <h1>Werken bij Domino's</h1>
+  </div>
     
+  <div class="center">
+    <p>Domino's blijft groeien en we kunnen jouw hulp daar goed bij gebruiken! Solliciteer nu voor een (bij)baan in een van onze winkels</p>
+</div>
+    
+    
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Afstand</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">10km</a>
+    <a href="#">20km</a>
+    <a href="#">50km</a>
+  </div>
+</div>
+
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+
+<div class="dropdown1">
+  <button onclick="myFunction1()" class="dropbtn">Functie</button>
+  <div id="myDropdown1" class="dropdown-content">
+    <a href="#">Assistent winkelmanager</a>
+    <a href="#">Autobezorger</a>
+    <a href="#">Bezorger</a>
+    <a href="#">Fietsbezorger</a>
+    <a href="#">Pizzamaker</a>
+    <a href="#">Scooterbezorger</a>
+    <a href="#">Shiftmanager</a>
+    <a href="#">Teamlid voor nachtdienst</a>
+    <a href="#">Winkelmanager</a>
+  </div>
+</div>
+
+<script>
+  function myFunction1() {
+    document.getElementById("myDropdown1").classList.toggle("show");
+  }
+  
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+
+    <form>
+        <label for="Pcode">Postcode:</label><br>
+        <input type="text" id="fname" name="fname">
+
+      </form>
+
+    <div class = "Search">
+      <input type="submit" value="Zoeken">
+    </div>
+
+      <div class="center">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Waarom werken bij domino's?</h1>
+    <p>We zijn het grootste pizza bezorg - en afhaalbedrijf ter wereld en kunnen je dus als beste de kneepjes van het vak leren.</p>
+    <p>We groeien nog steeds enorm hard! En we willen graag dat jij met ons mee groeit. Daarom zijn er altijd verschillende mogelijkheden om bij ons door te groeien, kijk maar eens op onze trainingspagina</p>
+    
+    </div>
+    <div class = "center">
+      <p>We houden ervan om onze successen te vieren en houden ook wel van een beetje competitie. Zo vindt elk jaar de "Fastest Pizza Maker Competition" plaats tijdens onze Domino's Awards. Neem eens een kijkje op onze Over Domino's-pagina.</p>
+      <br><br>
+    </div>
+    
+
     <footer>
-        <p>Website by Samed Balcioglu, Luc Bos & David Koolman</p>
-    </footer>
+      <p>Website by Samed Balcioglu, Luc Bos & David Koolman</p>
+  </footer>
 </body>
