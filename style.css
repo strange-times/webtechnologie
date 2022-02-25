@@ -19,7 +19,12 @@ th {
 
 
 p {font-family: Arial, Helvetica, sans-serif;}
+
 h1 {font-family: Arial, Helvetica, sans-serif; margin:10;}
+
+h2 {font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
 li {font-family: Arial, Helvetica, sans-serif;}
 
 ul {
@@ -54,6 +59,109 @@ div.center {
     margin-right: auto;
 }
 
+.dropbtn {
+    background-color: #df281a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+div.dropdown {
+    position: absolute;
+    bottom: 250;
+    right: 700;
+    width: 300px;
+
+}
+div.dropdown1 {
+    position: absolute;
+    bottom: 250;
+    right: 600;
+    width: 300px;
+
+}
+  form {
+    position: absolute;
+    font-size: 20px;
+    bottom: 250;
+    right: 900;
+    width: 300px;
+  }
+
+  form1 {
+    position: absolute;
+    font-size: 16px;
+    bottom: 500;
+    right: 800;
+    width: 300px;
+  }
+
+div.custom1 {
+    position: absolute;
+    font-size: 20px;
+    bottom: 390;
+    right: 700;
+    width: 300px;
+}
+
+div.custom2 {
+    position: absolute;
+    font-size: 20px;
+    bottom: 150 ;
+    right: 700;
+    width: 300px;
+}
+
+div.custom3 {
+    position: absolute;
+    font-size: 20px;
+    bottom: -120;
+    right: 700;
+    width: 300px;
+}
+div.Search {
+    position: absolute;
+    font-size: 50px;
+    bottom: 250;
+    right: 500;
+    width: 300px;
+  }
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #cf1f19;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
 
 footer {
     position: fixed;
@@ -76,21 +184,4 @@ div {
     width: 25%;
     margin-left: 3%;
     margin-right: 3%;
-}
-
-#menuTable {
-    margin-bottom: 50px;
-}
-
-.aanbieding {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.aanbiedingimg{
-    flex-basis: 40%;
-}
-.aanbiedingtxt{
-    font-size: 20;
-    padding-left: 20px;
 }
