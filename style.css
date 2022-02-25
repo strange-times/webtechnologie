@@ -3,6 +3,7 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+
 th {
     border: 1px solid;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +17,7 @@ th {
     content: ',-';
     float: right;
 }
+
 
 
 p {font-family: Arial, Helvetica, sans-serif;}
@@ -91,38 +93,30 @@ div.dropdown1 {
   }
 
   form1 {
-    position: absolute;
+    position: relative;
     font-size: 16px;
-    bottom: 500;
-    right: 800;
     width: 300px;
   }
 
 div.custom1 {
-    position: absolute;
+    position: relative;
     font-size: 20px;
-    bottom: 390;
-    right: 700;
     width: 300px;
 }
 
 div.custom2 {
-    position: absolute;
+    position: relative;
     font-size: 20px;
-    bottom: 150 ;
-    right: 700;
     width: 300px;
 }
 
 div.custom3 {
-    position: absolute;
+    position: relative;
     font-size: 20px;
-    bottom: -120;
-    right: 700;
     width: 300px;
 }
 div.Search {
-    position: absolute;
+    position: relative;
     font-size: 50px;
     bottom: 250;
     right: 500;
