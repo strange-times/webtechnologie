@@ -78,6 +78,10 @@ div {
     margin-right: 3%;
 }
 
+#menuTable {
+    margin-bottom: 50px;
+}
+
 .aanbieding {
     display: flex;
     align-items: center;
