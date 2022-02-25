@@ -1,0 +1,3 @@
+bezorging.jpg: https://www.baaz.nl/sites/default/files/20161111_Dominos-GPS_0252.jpg
+fpage.jpg: dominos.nl
+logo.png: dominos.nl

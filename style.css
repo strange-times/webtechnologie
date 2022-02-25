@@ -77,3 +77,16 @@ div {
     margin-left: 3%;
     margin-right: 3%;
 }
+
+.aanbieding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aanbiedingimg{
+    flex-basis: 40%;
+}
+.aanbiedingtxt{
+    font-size: 20;
+    padding-left: 20px;
+}
