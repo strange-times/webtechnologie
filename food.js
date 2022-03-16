@@ -2,6 +2,7 @@
 class food {
     constructor(price) {
         this.price = price;
+        this.type ="food"
     }
     show() {
         var tag = document.createElement("th");
@@ -16,18 +17,21 @@ class food {
 class PepporoniDeluxe extends food {
     contructor(price) {
         super(price)
+        this.type ="pepperoni deluxe"
     }
 }
 
 class FourCheeses extends food {
     contructor(price) {
         super(price)
+        this.type = "four cheese pizza"
     }
 }
 
 class VeganCrunchyChicken extends food {
     contructor(price) {
         super(price)
+        this.type = "vegan crunchy chicken pizza"
     }
 }
 
