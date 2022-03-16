@@ -128,14 +128,9 @@ class menu {
         document.body.appendChild(table)
     }
 
-    set addSection(menuSection) {
-        this.sections.append(menuSection)
-    }
-
-    run() {
-        for (let i = 0; i < sections.length; i++) {
-            sections[i].run();
-        }
+    set visibleSection(menuSection) {
+        this.visible = menuSection;
+        visible.run();
     }
 }
 
