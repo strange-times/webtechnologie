@@ -11,6 +11,7 @@ btnDrinks.innerHTML = "Drinks Menu";
 document.body.appendChild(btnDrinks);
 
 
+
 let pizza = [
     {name: "Spicy chicken", price: 9.50, spicy: "yes"},
     {name: "Pepperoni", price: 8.50, spicy: "no"}
@@ -113,3 +114,29 @@ btnDrinks.addEventListener("click", () => {
     generateTableHead(table, data);
     generateTable(table, drinks);
 })
+
+class menu {
+    constructor() {
+        let table = document.createElement('table');
+        let thead = document.createElement('thead');
+
+        let tbody = document.createElement('tbody');
+
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        table.id = "table"
+        document.body.appendChild(table)
+    }
+
+    set addSection(menuSection) {
+        this.sections.append(menuSection)
+    }
+
+    run() {
+        for (let i = 0; i < sections.length; i++) {
+            sections[i].run();
+        }
+    }
+}
+
+let m = new menu();
