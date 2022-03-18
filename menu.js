@@ -124,7 +124,7 @@ class menu {
 
         table.appendChild(thead);
         table.appendChild(tbody);
-        table.id = "table"
+        table.id = "table";
         document.body.appendChild(table)
     }
 
