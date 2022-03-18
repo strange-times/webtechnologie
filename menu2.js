@@ -10,4 +10,4 @@ class menu {
     }
 }
 
-let a = new menu();
+let a = new menu(); 
