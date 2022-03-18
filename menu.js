@@ -33,6 +33,7 @@ btnPizza.addEventListener("click", () => {
         let fourCheese = new FourCheeses();
         foodItems = [pepporoniDeluxe, fourCheese];
         let pizzaSection = new MenuSection(foodItems);
+        pizzaSection.show();
     }
     function generateTableHead(table, data) {
     let thead = table.createTHead();
