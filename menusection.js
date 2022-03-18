@@ -17,6 +17,8 @@ class MenuSection {
             row.appendChild(column1);
             row.appendChild(column2);
             row.appendChild(column3);
+            let table = document.getElementById("table");
+            table.appendChild(row);
         }
     }
 }
