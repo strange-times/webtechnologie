@@ -17,6 +17,10 @@ class menu {
 
         document.body.appendChild(table);
     }
+    set visibleSection(menuSection) {
+        this.visible = menuSection;
+        visible.run();
+    }
 }
 
 let m = new menu();
