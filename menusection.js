@@ -4,9 +4,9 @@ class MenuSection {
     }
     show() {
         for (let i = 0; i < this.foodItems.length; i++) {
-            let value1 = this.foodItems[i].value1;
-            let value2 = this.foodItems[i].value2;
-            let value3 = this.foodItems[i].value3;
+            let value1 = this.foodItems[i].name;
+            let value2 = this.foodItems[i].price;
+            let value3 = this.foodItems[i].spicy;
             let row = document.createElement("tr");
             let column1 = document.createElement("td")
             column1.nodeValue = value1;

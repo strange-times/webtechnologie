@@ -28,6 +28,11 @@ let drinks = [
 ];
 
 btnPizza.addEventListener("click", () => {
+    function pizzaSection() {
+        let pepperonideluxe = new PepporoniDeluxe();
+        let fourCheese = new FourCheeses();
+        foodItems = [];
+    }
     function generateTableHead(table, data) {
     let thead = table.createTHead();
     let row = thead.insertRow();
