@@ -59,3 +59,5 @@ let Cola = new Drink("Coca Cola", 2,50, "No")
 let Coffee = new Drink("Large Coffee", 1,50, "Yes")
 let Icecream = new Snack("Chocolate Ice Cream", 2,50, "No")
 let Nuggets = new Snack("Chicken nuggets", 3,50, "Yes")
+
+h
